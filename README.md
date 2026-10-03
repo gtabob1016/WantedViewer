@@ -10,7 +10,9 @@ https://github.com/gtabob1016/WantedViewer/releases/latest/download/WantedViewer
 
 落として、好きな場所に置いて起動するだけです。インストールは不要です。版ごとのページは右側の **Releases** にあります。
 
-- 初回起動で Windows の SmartScreen が「WindowsによってPCが保護されました」と出ることがあります。「詳細情報」→「実行」で起動できます（署名していないためです）
+- ダウンロード時にブラウザが「一般的にダウンロードされていません」と止めることがあります（署名していない exe のため）。
+  Edge: ダウンロード一覧の項目の「…」→「保存」→「詳細表示」→「保持する」。Chrome: 警告の横の「∧」→「保存」
+- 初回起動で Windows の SmartScreen が「WindowsによってPCが保護されました」と出ることがあります。「詳細情報」→「実行」で起動できます
 - 同じ Release の `WantedViewer.exe.sha256` と照合すれば、ファイルが改変されていないことを確かめられます
   （PowerShell: `Get-FileHash .\WantedViewer.exe -Algorithm SHA256`）
 
