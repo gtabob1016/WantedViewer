@@ -16,6 +16,11 @@ https://github.com/gtabob1016/WantedViewer/releases/latest/download/WantedViewer
 - 同じ Release の `WantedViewer.exe.sha256` と照合すれば、ファイルが改変されていないことを確かめられます
   （PowerShell: `Get-FileHash .\WantedViewer.exe -Algorithm SHA256`）
 
+## 説明書
+
+画面の見かた・ボタン・設定の各項目・こまったときの対処をまとめた説明書（PDF）があります。
+[最新のリリース](https://github.com/gtabob1016/WantedViewer/releases/latest) の Assets にある `KataWanted_Manual_v<版>.pdf` を開いてください。
+
 ## 使い方
 
 - 起動すると画面左上に一覧が出ます。ドラッグで移動、右端のドラッグで横幅、ホイールでスクロール
